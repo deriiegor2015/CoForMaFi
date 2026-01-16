@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+h1 { color: #00ffd0; }
+textarea {
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  background: #2e2e44;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #00ffd0;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+#aiOutput {
+  width: 90%;
+  margin-top: 20px;
+  background: #2e2e44;
+  padding: 10px;
+  min-height: 100px;
+  white-space: pre-wrap;
+}
